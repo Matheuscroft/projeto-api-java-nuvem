@@ -10,3 +10,10 @@ spring:
     #properties:
       #hibernate:
         #dialect: org.hibernate.dialect.PostgreSQLDialect
+#logging:
+   # level:
+      #org.springframework: DEBUG
+
+custom:
+  profile-loaded: "PRD Profile Loaded"
+

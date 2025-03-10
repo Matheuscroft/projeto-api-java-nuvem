@@ -1,0 +1,3 @@
+spring:
+  profiles:
+    active: prd  # Define 'prod' como o perfil padrão
