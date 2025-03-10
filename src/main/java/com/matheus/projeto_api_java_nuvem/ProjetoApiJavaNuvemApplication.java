@@ -26,6 +26,7 @@ public class ProjetoApiJavaNuvemApplication implements CommandLineRunner {
 		// Verificando se as variáveis de ambiente estão sendo lidas corretamente
 		System.out.println("DATABASE URL: " + datasourceUrl);
 		System.out.println("DATABASE USER: " + datasourceUser);
+
 		System.out.println("DATABASE PASSWORD: " + (datasourcePassword != null ? "******" : "NOT SET"));
 	}
 }
